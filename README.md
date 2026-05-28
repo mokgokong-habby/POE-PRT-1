@@ -1,4 +1,4 @@
-STUDENT LIFE MANAGEMENT SERVICES
+##STUDENT LIFE MANAGEMENT SERVICES
 
 The website aims to:
 
@@ -30,7 +30,6 @@ The website consists of the following five pages:
 |---|---|
 | HTML5 | Page structure and semantic content markup |
 | CSS3 | Styling, layout, and responsive design |
-| JavaScript | Form validation and interactive features |
 | Google Fonts | Web typography enhancement |
 | Font Awesome | Icons for navigation and contact sections |
 | Formspree | Contact form email submission handling |
@@ -90,6 +89,22 @@ SLMS-Website/
 └── media/            # Images and logo assets
 ```
 
+
+## ✨ Key Features
+
+- [x] Fully responsive multi-page static website
+- [x] Clean and consistent navigation across all pages
+- [x] Detailed services section covering 5 academic disciplines
+- [x] Flexible pricing plans for different student budgets
+- [x] Online contact and enquiry form for easy communication
+- [x] Motivational and faith-based encouragement page for students
+- [x] Shared CSS stylesheet for uniform styling across all pages
+- [x] Organised media folder for all images and logo assets
+- [x] Mobile-friendly layout using responsive design principles
+- [ ] JavaScript form validation *(planned)*
+- [ ] Student login and dashboard portal *(future feature)*
+- [ ] Online payment integration *(future feature)*
+- [ ] Live chat support *(future feature)*
 ---
 
 ## How to Run
@@ -101,13 +116,26 @@ SLMS-Website/
 No server or installation is required — this is a fully static website.
 
 ---
-
+git clone https://github.com/mokgokong-habby/MyAwesomeProject.git
+cd MyAwesomeProject
 ## Contact
 
 - **Email:** studentlifeservices@gmail.com
 - **Phone:** 012 567 8989
 - **Location:** Biccard Street, South Africa
 
+---
+
+## 👤 Author & Contact
+
+Developed by the **MOKGOKONG.M** as part of an academic web development project.
+
+| Detail   | Information                        |
+|----------|------------------------------------|
+| Email    | studentlifeservices@gmail.com      |
+| Phone    | 012 567 8989                       |
+| Location | Biccard Street, South Africa       |
+| LINKEDIN | MOKGOKONG.M
 - 
 <img width="2000" height="2000" alt="7854106" src="https://github.com/user-attachments/assets/b81a1dee-4394-4a4c-a758-5a2cb974cc85" />
 
@@ -122,6 +150,24 @@ SERVICES
 CONTACT AND SIGN IN
 <img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/b37a1ef5-a2c9-49bc-ac0a-afaea3839099" />
 MOTIVATION PAGE
+
+
+# References
+
+The following tools, platforms, and resources were used in the development of this website:
+
+| # | Source | Description | URL |
+|---|--------|-------------|-----|
+| 1 | MDN Web Docs | HTML5 and CSS3 documentation and reference guides | https://developer.mozilla.org |
+| 2 | W3Schools | HTML, CSS, and web development tutorials | https://www.w3schools.com |
+| 3 | Google Fonts | Free web font library used for typography | https://fonts.google.com |
+| 4 | Font Awesome | Icon library used in navigation and contact sections | https://fontawesome.com |
+| 5 | Formspree | Contact form email handling service | https://formspree.io |
+| 6 | Pexels | Free stock images used across service pages | https://www.pexels.com |
+| 7 | Freepik | Logo and graphic assets used in the project | https://www.freepik.com |
+| 8 | GitHub Docs | README formatting and Markdown syntax guide | https://docs.github.com |
+
+>  **Note:** All images and external resources used in this project are either free to use, open-source, or credited to their respective owners. No copyright infringement is intended.
 
 
 
