@@ -108,8 +108,10 @@ No server or installation is required — this is a fully static website.
 - **Location:** Biccard Street, South Africa
 
 - LOGO
+- 
 <img width="404" height="306" alt="image" src="https://github.com/user-attachments/assets/4e1ff5ce-65b5-48fa-98a6-f501b215c634" />
 HOEMPAGE
+
 <img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/1c883049-c651-4c8f-bc4b-ebbb0f6f1ecd" />
 
 SERVICES
@@ -130,6 +132,15 @@ CONTACT
 
 MOTIVATION PAGE
 <img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/c3e519eb-3359-4872-8f97-4875b0c77e5b" />
+mobile
+
+<img width="320" height="861" alt="image" src="https://github.com/user-attachments/assets/5a496198-d6e5-45bf-86b9-5f81c204d8ed" />
+tablet
+
+<img width="768" height="861" alt="image" src="https://github.com/user-attachments/assets/ce9564cd-c595-4999-b66e-08b33ffded24" />
+laptop
+
+<img width="1296" height="860" alt="image" src="https://github.com/user-attachments/assets/289d404c-ab8c-42cb-a461-06c27d40506c" />
 
 
 
