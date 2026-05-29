@@ -30,7 +30,6 @@ The website consists of the following five pages:
 |---|---|
 | HTML5 | Page structure and semantic content markup |
 | CSS3 | Styling, layout, and responsive design |
-| JavaScript | Form validation and interactive features |
 | Google Fonts | Web typography enhancement |
 | Font Awesome | Icons for navigation and contact sections |
 | Formspree | Contact form email submission handling |
