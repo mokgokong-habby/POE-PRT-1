@@ -107,20 +107,29 @@ No server or installation is required — this is a fully static website.
 - **Phone:** 012 567 8989
 - **Location:** Biccard Street, South Africa
 
-- 
-<img width="2000" height="2000" alt="7854106" src="https://github.com/user-attachments/assets/b81a1dee-4394-4a4c-a758-5a2cb974cc85" />
+- LOGO
+<img width="404" height="306" alt="image" src="https://github.com/user-attachments/assets/4e1ff5ce-65b5-48fa-98a6-f501b215c634" />
+HOEMPAGE
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/1c883049-c651-4c8f-bc4b-ebbb0f6f1ecd" />
 
-<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/4370fd87-5b5b-4129-a830-035474c0dc9f" />
-HOME PAGE
----<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/775ee1a1-8940-4088-af22-8782f6c42612" />
-<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/dd290f7b-3e5a-4fe1-a3d5-f89d8805eb9a" />
-<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/34a329de-51f7-49b5-bb15-5bf82dca18fe" />
 SERVICES
-<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/e36cb59d-f32c-4908-8d37-52001b2e6b92" />
-<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/08f4d929-5b5f-48cb-a08d-332ca285b464" />
-CONTACT AND SIGN IN
-<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/b37a1ef5-a2c9-49bc-ac0a-afaea3839099" />
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/82bfb334-974d-4766-ba67-2cc83c714ef1" />
+
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/6b4ab5bb-f48e-4be9-8df2-284bdb61dbf2" />
+
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/1014eca6-91cc-4373-beca-267409481b6b" />
+<img width="1912" height="609" alt="image" src="https://github.com/user-attachments/assets/df0e1fcf-9065-4966-b037-08d649e314d0" />
+
+PRICING
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/cc858263-1848-4979-8227-35d1ea8be697" />
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/27997ddc-e06b-4401-b3b6-188a80b058fa" />
+
+
+CONTACT 
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/cac4a326-e24d-4e62-a94f-5e1ce32c92f5" />
+
 MOTIVATION PAGE
+<img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/c3e519eb-3359-4872-8f97-4875b0c77e5b" />
 
 
 
