@@ -33,7 +33,7 @@ The website consists of the following five pages:
 | Google Fonts | Web typography enhancement |
 | Font Awesome | Icons for navigation and contact sections |
 | Formspree | Contact form email submission handling |
-
+| java script | interactivity |
 
 ## Project Overview
 
