@@ -14,12 +14,19 @@
         <nav>
             <img src="media/powpow logo.jpg" alt="Student Life Management Services logo" style="height:48px; width:auto; display:block;" >
             <h2>Student Life Management Services</h2>
+
             <ul>
                 <li><a href="service.html">Services</a></li>
                 <li><a href="enquiry.html">Pricing</a></li>
                 <li><a href="about.html">Motivation</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+
+            
+            <form id="navSearch" class="nav-search" role="search" aria-label="Site search" onsubmit="return false;">
+                <input id="navSearchInput" type="search" placeholder="Search..." aria-label="Search keywords" />
+                <button id="navSearchBtn" type="button">Search</button>
+            </form>
         </nav>
     </header>
 
@@ -47,7 +54,27 @@
         <p>We work with students from different academic backgrounds and tailor our services to meet individual needs. Our goal is to ensure that every student reaches their full potential through consistent support and mentorship.</p>
 
         <a href="enquiry.html">Get Started Now</a>
+        <a href="search.html" style="margin-left: .75rem;">Search</a>
     </section>
+
+    <script>
+        // Navbar search: redirect to search.html when user clicks Search / presses Enter.
+        const navForm = document.getElementById('navSearch');
+        const navInput = document.getElementById('navSearchInput');
+        const navBtn = document.getElementById('navSearchBtn');
+
+        function goToSearch() {
+            const q = (navInput.value || '').trim();
+            const url = q ? `search.html?q=${encodeURIComponent(q)}` : 'search.html';
+            window.location.href = url;
+        }
+
+        navBtn.addEventListener('click', goToSearch);
+        navInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') goToSearch();
+        });
+    </script>
+
 
     <footer>
         <p>2026 Student Life Management Services</p>
