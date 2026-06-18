@@ -3,34 +3,62 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <img src="media/powpow logo.jpg" alt="Student Life Management Services logo" style="height:48px; width:auto; display:block; margin: 16px auto;">
+<header>
+        <nav>
+            <img src="media/powpow logo.jpg" alt="Student Life Management Services logo" style="height:48px; width:auto; display:block;" >
+            <h2>Student Life Management Services</h2>
 
-    <h1>Contact Us</h1>
+            <ul>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="enquiry.html">Pricing</a></li>
+                <li><a href="about.html">Motivation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
 
-    <p>Email: studentlifeservices@gmail.com</p>
-    <p>Phone: 012 567 8989</p>
-    <p>Location: Biccard street, South Africa</p>
+            
+            <form id="navSearch" class="nav-search" role="search" aria-label="Site search" onsubmit="return false;">
+                <input id="navSearchInput" type="search" placeholder="Search..." aria-label="Search keywords" />
+                <button id="navSearchBtn" type="button">Search</button>
+            </form>
+        </nav>
+    </header>
 
-    <p>We are always ready to assist you with any questions or concerns you may have. Our support team is committed to providing timely and helpful responses.</p>
-    <p>Feel free to reach out to us for more information about our services, pricing plans, or scheduling sessions. We value clear communication and aim to make your experience as smooth as possible.</p>
-    <p>Your feedback is important to us, as it helps us improve and continue delivering high-quality academic support to all students.</p>
+    <main class="enquiry-page">
 
-    <h2>Send Us Message</h2>
+        <div class="enquiry-page__overlay" aria-hidden="true"></div>
 
+        <div class="enquiry-page__content">
+            <img src="media/powpow logo.jpg" alt="Student Life Management Services logo"
+                style="height:48px; width:auto; display:block; margin: 16px auto;">
 
+            <h1>Contact Us</h1>
 
-    <br>
-    <a href="index.html">Back Home</a>
+            <p>Email: studentlifeservices@gmail.com</p>
+            <p>Phone: 012 567 8989</p>
+            <p>Location: Biccard street, South Africa</p>
 
-    <footer>
-        <p> 2026 Student Life Management Services</p>
-    </footer>
+            <p>We are always ready to assist you with any questions or concerns you may have. Our support team is committed to providing timely and helpful responses.</p>
+            <p>Feel free to reach out to us for more information about our services, pricing plans, or scheduling sessions. We value clear communication and aim to make your experience as smooth as possible.</p>
+            <p>Your feedback is important to us, as it helps us improve and continue delivering high-quality academic support to all students.</p>
+
+            <h2>Send Us Message</h2>
+
+            <br>
+            <a href="index.html">Back Home</a>
+        </div>
+
+        <footer>
+            <p> 2026 Student Life Management Services</p>
+        </footer>
+
+    </main>
 
 </body>
 
