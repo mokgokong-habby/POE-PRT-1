@@ -5,33 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
 <header>
         <nav>
             <img src="media/powpow logo.jpg" alt="Student Life Management Services logo" style="height:48px; width:auto; display:block;" >
             <h2>Student Life Management Services</h2>
-
+            <form id="siteSearchForm" class="navbar-search" role="search" aria-label="Site search">
+                <label class="sr-only" for="siteSearch">Search</label>
+                <input id="siteSearch" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search services, pricing, contact..." />
+                <button type="submit" aria-label="Search">Search</button>
+            </form>
+            <div id="searchMessage" class="search-message" aria-live="polite"></div>
             <ul>
                 <li><a href="service.html">Services</a></li>
                 <li><a href="enquiry.html">Pricing</a></li>
                 <li><a href="about.html">Motivation</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
-            
-            <form id="navSearch" class="nav-search" role="search" aria-label="Site search" onsubmit="return false;">
-                <input id="navSearchInput" type="search" placeholder="Search..." aria-label="Search keywords" />
-                <button id="navSearchBtn" type="button">Search</button>
-            </form>
         </nav>
     </header>
 
-    <main class="enquiry-page">
+    <script src="js/main.js" defer></script>
 
+    <main class="enquiry-page">
         <div class="enquiry-page__overlay" aria-hidden="true"></div>
 
         <div class="enquiry-page__content">
@@ -50,20 +49,30 @@
 
             <h2>Send Us Message</h2>
 
-            <br>
-            <a href="index.html" class="a-pill">Back Home</a>
+            <div id="googleMap" class="google-map" aria-label="Google map">
+                <iframe
+                    title="Google map - Biccard street, South Africa"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    sandbox="allow-scripts allow-same-origin allow-popups"
+                    src="https://www.google.com/maps?q=Biccard%20street%2C%20South%20Africa&output=embed"
+                    width="600"
+                    height="350"
+                    style="border:0; border-radius: var(--radius-md); width:100%; max-width: 900px;"
+                    allowfullscreen
+                ></iframe>
+            </div>
 
+            <br>
+            <a href="index.html">Back Home</a>
         </div>
 
         <footer>
             <p> 2026 Student Life Management Services</p>
         </footer>
 
-</main>
-
-<script src="js/site.js"></script>
+    </main>
 
 </body>
 
 </html>
-

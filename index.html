@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Life Management Services</title>
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -14,21 +14,22 @@
         <nav>
             <img src="media/powpow logo.jpg" alt="Student Life Management Services logo" style="height:48px; width:auto; display:block;" >
             <h2>Student Life Management Services</h2>
-
+            <form id="siteSearchForm" class="navbar-search" role="search" aria-label="Site search">
+                <label class="sr-only" for="siteSearch">Search</label>
+                <input id="siteSearch" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search services, pricing, contact..." />
+                <button type="submit" aria-label="Search">Search</button>
+            </form>
+            <div id="searchMessage" class="search-message" aria-live="polite"></div>
             <ul>
                 <li><a href="service.html">Services</a></li>
                 <li><a href="enquiry.html">Pricing</a></li>
                 <li><a href="about.html">Motivation</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
-            
-            <form id="navSearch" class="nav-search" role="search" aria-label="Site search" onsubmit="return false;">
-                <input id="navSearchInput" type="search" placeholder="Search..." aria-label="Search keywords" />
-                <button id="navSearchBtn" type="button">Search</button>
-            </form>
         </nav>
     </header>
+
+    <script src="js/main.js" defer></script>
 
     <section class="index-hero">
         <h1>Unlock Your Academic Potential</h1>
@@ -54,28 +55,7 @@
         <p>We work with students from different academic backgrounds and tailor our services to meet individual needs. Our goal is to ensure that every student reaches their full potential through consistent support and mentorship.</p>
 
         <a href="enquiry.html">Get Started Now</a>
-        <a href="search.html" class="a-pill" style="margin-left: .75rem;">Search</a>
     </section>
-
-    <script>
-        // Navbar search: redirect to search.html when user clicks Search / presses Enter.
-        const navForm = document.getElementById('navSearch');
-        const navInput = document.getElementById('navSearchInput');
-        const navBtn = document.getElementById('navSearchBtn');
-
-        function goToSearch() {
-            const q = (navInput.value || '').trim();
-            const url = q ? `search.html?q=${encodeURIComponent(q)}` : 'search.html';
-            window.location.href = url;
-        }
-
-        navBtn.addEventListener('click', goToSearch);
-        navInput.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') goToSearch();
-        });
-    </script>
-
-    <script src="js/site.js"></script>
 
     <footer>
         <p>2026 Student Life Management Services</p>

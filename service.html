@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Services</title>
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,30 +13,30 @@
         <nav>
             <img src="media/powpow logo.jpg" alt="Student Life Management Services logo" style="height:48px; width:auto; display:block;" >
             <h2>Student Life Management Services</h2>
-
+            <form id="siteSearchForm" class="navbar-search" role="search" aria-label="Site search">
+                <label class="sr-only" for="siteSearch">Search</label>
+                <input id="siteSearch" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search services, pricing, contact..." />
+                <button type="submit" aria-label="Search">Search</button>
+            </form>
+            <div id="searchMessage" class="search-message" aria-live="polite"></div>
             <ul>
                 <li><a href="service.html">Services</a></li>
                 <li><a href="enquiry.html">Pricing</a></li>
                 <li><a href="about.html">Motivation</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
-            
-            <form id="navSearch" class="nav-search" role="search" aria-label="Site search" onsubmit="return false;">
-                <input id="navSearchInput" type="search" placeholder="Search..." aria-label="Search keywords" />
-                <button id="navSearchBtn" type="button">Search</button>
-            </form>
         </nav>
     </header>
 
-<main class="service-page" aria-label="Services page" style='background-image: url("media/pexels-philli-5940707.jpg");'>
+    <script src="js/main.js" defer></script>
+
+    <main class="service-page" aria-label="Services page" style='background-image: url("media/pexels-pu-ca-adryan-163345030-31525131.jpg");'>
         <div class="service-page__overlay" aria-hidden="true"></div>
 
         <h1>Our Services</h1>
 
 
-        <div class="service-page__content" style="background-image: url('media/pexels-kampus-5940707.jpg');">
-
+        <div class="service-page__content">
 
     <section>
         <h2>Communication Technology</h2>
@@ -97,8 +97,7 @@
     <p>Each subject area is supported by experienced tutors who are passionate about teaching and mentoring. They provide guidance, answer questions, and help students overcome academic challenges effectively.</p>
     <p>We also encourage interactive learning through discussions, practical examples, and real-world case studies to enhance understanding and retention of information.</p>
 
-    <a href="index.html" class="a-pill">Back Home</a>
-
+    <a href="index.html">Back Home</a>
 
     <footer>
         <p>2026 Student Life Management Services</p>
@@ -107,9 +106,6 @@
         </div>
     </main>
 
-<script src="js/site.js"></script>
-
 </body>
 
 </html>
-

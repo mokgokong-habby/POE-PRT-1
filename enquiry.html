@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pricing</title>
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,23 +12,24 @@
         <nav>
             <img src="media/powpow logo.jpg" alt="Student Life Management Services logo" style="height:48px; width:auto; display:block;" >
             <h2>Student Life Management Services</h2>
-
+            <form id="siteSearchForm" class="navbar-search" role="search" aria-label="Site search">
+                <label class="sr-only" for="siteSearch">Search</label>
+                <input id="siteSearch" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search services, pricing, contact..." />
+                <button type="submit" aria-label="Search">Search</button>
+            </form>
+            <div id="searchMessage" class="search-message" aria-live="polite"></div>
             <ul>
                 <li><a href="service.html">Services</a></li>
                 <li><a href="enquiry.html">Pricing</a></li>
                 <li><a href="about.html">Motivation</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
-            
-            <form id="navSearch" class="nav-search" role="search" aria-label="Site search" onsubmit="return false;">
-                <input id="navSearchInput" type="search" placeholder="Search..." aria-label="Search keywords" />
-                <button id="navSearchBtn" type="button">Search</button>
-            </form>
         </nav>
     </header>
 
-<main class="enquiry-page" style='background-image: url("media/pexels-pixabay-207253.jpg");'>
+    <script src="js/main.js" defer></script>
+
+    <main class="enquiry-page">
         <div class="enquiry-page__overlay" aria-hidden="true"></div>
 
         <h1>Enquiry</h1>
@@ -85,19 +86,15 @@
     <a href="contact.html">Contact</a>
     <br><br>
     <!--link to previous page-->
-    <a href="index.html" class="a-pill">Back Home</a>
-
+    <a href="index.html">Back Home</a>
 
     <footer>
         <p>2026 Student Life Management Services</p>
     </footer>
 
         </div>
-</main>
-
-<script src="js/site.js"></script>
+    </main>
 
 </body>
 
 </html>
-

@@ -1,0 +1,6 @@
+Run PageSpeed Insights / Lighthouse in browser:
+1) Open https://pagespeed.web.dev/
+2) Paste your URL (served locally or hosted).
+3) Run the report.
+
+This repository is static HTML/CSS/JS; no further in-repo config was requested.
