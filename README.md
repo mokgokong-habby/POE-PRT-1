@@ -126,9 +126,10 @@ PRICING
 <img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/cc858263-1848-4979-8227-35d1ea8be697" />
 <img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/27997ddc-e06b-4401-b3b6-188a80b058fa" />
 
-
 CONTACT 
 <img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/cac4a326-e24d-4e62-a94f-5e1ce32c92f5" />
+<img width="1910" height="915" alt="image" src="https://github.com/user-attachments/assets/3c7f5126-c40a-4c85-a11f-8a00aee900b2" />
+
 
 MOTIVATION PAGE
 <img width="1912" height="948" alt="image" src="https://github.com/user-attachments/assets/c3e519eb-3359-4872-8f97-4875b0c77e5b" />
